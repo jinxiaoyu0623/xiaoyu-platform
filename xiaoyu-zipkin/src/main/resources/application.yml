@@ -1,0 +1,8 @@
+server:
+  port: 1005
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

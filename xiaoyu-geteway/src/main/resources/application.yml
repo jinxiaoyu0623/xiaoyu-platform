@@ -1,0 +1,18 @@
+server:
+  port: 1010
+
+spring:
+  application:
+    name: xiaoyu-gateway
+
+  cloud:
+    consul:
+      port: 8900
+
+    gateway:
+      routes:
+        - id: test_route
+          uri: https://www.baidu.com
+          predicates:
+            - Path=/
+

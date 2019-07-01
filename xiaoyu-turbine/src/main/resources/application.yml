@@ -1,0 +1,24 @@
+server:
+  port: 1003
+
+spring:
+  application:
+    name: xiaoyu-turbine
+
+  cloud:
+    consul:
+      port: 8900
+      discovery:
+        register-health-check: false
+
+turbine:
+  app-config: xiaoyu-service
+  aggregator:
+    cluster-config: default
+  cluster-name-expression: "'default'"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

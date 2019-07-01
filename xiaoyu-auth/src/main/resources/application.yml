@@ -1,0 +1,13 @@
+server:
+  port: 1020
+
+spring:
+  application:
+    name: xiaoyu-auth
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
