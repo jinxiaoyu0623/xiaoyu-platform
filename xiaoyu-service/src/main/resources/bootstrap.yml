@@ -1,0 +1,18 @@
+server:
+  port: 1000
+
+spring:
+  application:
+    name: xiaoyu-service
+
+  cloud:
+    consul:
+      port: 8900
+
+    config:
+      discovery:
+        service-id: xiaoyu-config
+        enabled: true
+      name: ${spring.application.name}
+
+
