@@ -18,6 +18,16 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <modules>
+        <module>xiaoyu-admin</module>
+        <module>xiaoyu-auth</module>
+        <module>xiaoyu-config</module>
+        <module>xiaoyu-geteway</module>
+        <module>xiaoyu-service</module>
+        <module>xiaoyu-turbine</module>
+        <module>xiaoyu-zipkin</module>
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

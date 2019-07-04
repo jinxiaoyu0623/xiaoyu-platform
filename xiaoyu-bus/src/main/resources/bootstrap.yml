@@ -1,0 +1,25 @@
+server:
+  port: 2001
+
+spring:
+  application:
+    name: xiaoyu-bus
+
+  cloud:
+    consul:
+      port: 8900
+
+    config:
+      #spring.cloud.config.fail-fast=true必须要配置，否则无法正常启动
+      fail-fast: true
+
+      discovery:
+        enabled: true
+        service-id: xiaoyu-config
+      name: ${spring.application.name}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh,bus-env
