@@ -21,6 +21,7 @@
     <modules>
         <module>xiaoyu-admin</module>
         <module>xiaoyu-auth</module>
+        <module>xiaoyu-bus</module>
         <module>xiaoyu-config</module>
         <module>xiaoyu-geteway</module>
         <module>xiaoyu-service</module>
