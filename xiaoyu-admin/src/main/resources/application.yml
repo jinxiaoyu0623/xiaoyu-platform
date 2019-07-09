@@ -12,6 +12,7 @@ spring:
       discovery:
         tags: user.name=xiaoyu,user.password=1234
 
+
   security:
     user:
       name: xiaoyu

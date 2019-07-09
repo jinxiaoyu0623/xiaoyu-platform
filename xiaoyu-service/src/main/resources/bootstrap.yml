@@ -6,13 +6,13 @@ spring:
     name: xiaoyu-service
 
   cloud:
-    consul:
-      port: 8900
-
-    config:
+    nacos:
       discovery:
-        service-id: xiaoyu-config
-        enabled: true
-      name: ${spring.application.name}
+        server-addr: localhost:8848
+
+      config:
+        file-extension: yaml
+        server-addr: localhost:8848
+
 
 
