@@ -14,5 +14,9 @@ spring:
         file-extension: yaml
         server-addr: localhost:8848
 
+    sentinel:
+      transport:
+        dashboard: localhost:3000
+
 
 

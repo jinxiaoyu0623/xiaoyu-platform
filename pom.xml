@@ -26,7 +26,6 @@
     <modules>
         <module>xiaoyu-admin</module>
         <module>xiaoyu-auth</module>
-        <module>xiaoyu-bus</module>
         <module>xiaoyu-geteway</module>
         <module>xiaoyu-service</module>
         <module>xiaoyu-turbine</module>
@@ -34,6 +33,7 @@
     </modules>
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
